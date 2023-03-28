@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>CRM</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="mob-header">
+            <div class="container">
+                <button type="button" class="mob-menu-btn" data-menu-open>
+                    <svg class="mob-menu-btn_icon" width="40px" height="40px">
+                        <use href="./images/symbol-defs.svg#icon-mob-menu-open"></use>
+                    </svg>
+                </button>
+                
+                <div class="mob-menu is-hidden" data-menu>
+                    
+                        <div class="mob-menu__nav-wrap container">
+                            <button type="button" class="mob-menu-btn mob-menu-btn--close" data-menu-close>
+                                <svg class="mob-menu-btn_icon" width="40px" height="40px">
+                                    <use href="./images/symbol-defs.svg#icon-mob-menu-close"></use>
+                                </svg>
+                            </button>
+                        
+                            <nav>
+                                <ul class="mob__nav-menu">
+                                    <li class="nav-menu__item">
+                                        <a href="#" class="nav-menu__link">
+                                            <div class="nav-menu__link--wrapper">
+                        
+                                                <svg class="logo__icon" width="24px" height="24px">
+                                                    <use href="./images/symbol-defs.svg#icon-dashboard"></use>
+                                                </svg>
+                        
+                                                <span class="nav-menu__title">Dashboard</span>
+                                            </div>
+                                            <span class="nav-menu__arrow">></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-menu__item">
+                                        <a href="#" class="nav-menu__link">
+                                            <div class="nav-menu__link--wrapper">
+                        
+                                                <svg class="nav-menu__icon" width="24px" height="24px">
+                                                    <use href="./images/symbol-defs.svg#icon-product"></use>
+                                                </svg>
+                        
+                                                <span class="nav-menu__title">Product</span>
+                                            </div>
+                                            <span class="nav-menu__arrow">></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-menu__item nav-menu__item--active">
+                                        <a href="#" class="nav-menu__link">
+                                            <div class="nav-menu__link--wrapper">
+                        
+                                                <svg class="nav-menu__icon" width="24px" height="24px">
+                                                    <use href="./images/symbol-defs.svg#icon-customer"></use>
+                                                </svg>
+                        
+                                                <span class="nav-menu__title">Customers</span>
+                                            </div>
+                                            <span class="nav-menu__arrow">></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-menu__item">
+                                        <a href="#" class="nav-menu__link">
+                                            <div class="nav-menu__link--wrapper">
+                        
+                                                <svg class="nav-menu__icon" width="24px" height="24px">
+                                                    <use href="./images/symbol-defs.svg#icon-income"></use>
+                                                </svg>
+                        
+                                                <span class="nav-menu__title">Income</span>
+                                            </div>
+                                            <span class="nav-menu__arrow">></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-menu__item">
+                                        <a href="#" class="nav-menu__link">
+                                            <div class="nav-menu__link--wrapper">
+                        
+                                                <svg class="nav-menu__icon" width="24px" height="24px">
+                                                    <use href="./images/symbol-defs.svg#icon-promote"></use>
+                                                </svg>
+                        
+                                                <span class="nav-menu__title">Promote</span>
+                                            </div>
+                                            <span class="nav-menu__arrow">></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-menu__item">
+                                        <a href="#" class="nav-menu__link">
+                                            <div class="nav-menu__link--wrapper">
+                        
+                                                <svg class="nav-menu__icon" width="24px" height="24px">
+                                                    <use href="./images/symbol-defs.svg#icon-help"></use>
+                                                </svg>
+                        
+                                                <span class="nav-menu__title">Help</span>
+                                            </div>
+                                            <span class="nav-menu__arrow">></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="user-card">
+                                <img src="./images/Evano.png" alt="user photo" width="42px" height="42px">
+                                <div class="user-card__inner-wrapper">
+                                    <p class="user-card__name">Evano</p>
+                                    <p class="user-card__position">Project Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>    
+            </div>
+        </header>
+
+        <header class="header">
+        <div class="header__flex-wrap">
+            <div class="header-logo-wrap">
+                <div class="logo">
+                    
+                        <svg class="logo__icon" width="37px" height="37px">
+                            <use href="./images/symbol-defs.svg#icon-logo"></use>
+                        </svg>
+                    
+                    <div>
+                        <span class="logo__title">Dashboard</span>
+                        <span class="logo__version">v.01</span>
+                    </div>
+                </div>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">
+                            <div class="nav-menu__link--wrapper">
+                                
+                                    <svg class="logo__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-dashboard"></use>
+                                    </svg>
+                                
+                                <span class="nav-menu__title">Dashboard</span>
+                            </div>
+                            <span class="nav-menu__arrow">></span>
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">
+                            <div class="nav-menu__link--wrapper">
+                                
+                                    <svg class="nav-menu__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-product"></use>
+                                    </svg>
+                                
+                                <span class="nav-menu__title">Product</span>
+                            </div>
+                            <span class="nav-menu__arrow">></span>
+                        </a>
+                    </li>
+                    <li class="nav-menu__item nav-menu__item--active">
+                        <a href="#" class="nav-menu__link">
+                            <div class="nav-menu__link--wrapper">
+                                
+                                    <svg class="nav-menu__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-customer"></use>
+                                    </svg>
+                                
+                                <span class="nav-menu__title">Customers</span>
+                            </div>
+                            <span class="nav-menu__arrow">></span>
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">
+                            <div class="nav-menu__link--wrapper">
+                                
+                                    <svg class="nav-menu__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-income"></use>
+                                    </svg>
+                                
+                                <span class="nav-menu__title">Income</span>
+                            </div>
+                            <span class="nav-menu__arrow">></span>
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">
+                            <div class="nav-menu__link--wrapper">
+                                
+                                    <svg class="nav-menu__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-promote"></use>
+                                    </svg>
+                                
+                                <span class="nav-menu__title">Promote</span>
+                            </div>
+                            <span class="nav-menu__arrow">></span>
+                        </a>
+                    </li>
+                    <li class="nav-menu__item">
+                        <a href="#" class="nav-menu__link">
+                            <div class="nav-menu__link--wrapper">
+                                
+                                    <svg class="nav-menu__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-help"></use>
+                                    </svg>
+                                
+                                <span class="nav-menu__title">Help</span>
+                            </div>
+                            <span class="nav-menu__arrow">></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="user-card">
+            <img src="./images/Evano.png" alt="user photo" width="42px" height="42px">
+            <div class="user-card__inner-wrapper">
+                <p class="user-card__name">Evano</p>
+                <p class="user-card__position">Project Manager</p>
+            </div>
+        </div>
+        </header>
+
+        <main class="main">
+        
+            <div class="greeting">
+               <p>Hello Evano &#128075;,</p> 
+            </div>
+        
+            <section class="customers">
+        
+                <div class="container-wrapper">
+                    <div class="filter-field-wrapper">
+                        <div class="customers__filter-field">
+                            <div class="cuctomers__title--wrapper">
+                                <h1 class="cuctomers__title">All customers</h1>
+                                <h2 class="customers__active">Active Members</h2>
+                            </div>
+                    
+                            <div class="search-input__wrapper">
+                                <div class="search-input">
+                                    <svg class="search-input__icon" width="24px" height="24px">
+                                        <use href="./images/symbol-defs.svg#icon-search"></use>
+                                    </svg>
+                                    <span class="search-input__placeholder">Search</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="customers-list__header">                       
+                            <div class="customer-name ">Customer Name</div>
+                            <div class="customer-company">Company</div>
+                            <div class="customer-phone">Phone Number</div>
+                            <div class="customer-email">Email</div>
+                            <div class="customer-country">Country</div>
+                            <div class="customer-status">Status</div>                       
+                    </div>
+                </div>
+                <svg width="100%" height="1px" class="line-svg">
+                    <use href="./images/symbol-defs.svg#icon-Line"></use>
+                </svg>
+
+                <ul class="customers-list">
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Jane Cooper</div>
+                            <div class="customer-company">Microsoft</div>
+                            <div class="customer-phone"> <a href="tel:(225) 555-0118">(225) 555-0118</a> </div>
+                            <div class="customer-email"> <a href="mailto:jane@microsoft.com">jane@microsoft.com</a> </div>
+                            <div class="customer-country">United States</div>
+                            <div class="status status__active">Active</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Floyd Miles</div>
+                            <div class="customer-company">Yahoo</div>
+                            <div class="customer-phone"> <a href="tel:(205) 555-0100">(205) 555-0100</a> </div>
+                            <div class="customer-email"> <a href="mailto:floyd@yahoo.com">floyd@yahoo.com</a> </div>
+                            <div class="customer-country">Kiribati</div>
+                            <div class="status status-inactive">Inactive</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Ronald Richards</div>
+                            <div class="customer-company">Adobe</div>
+                            <div class="customer-phone"> <a href="tel:(302) 555-0107">(302) 555-0107</a> </div>
+                            <div class="customer-email"> <a href="mailto:ronald@adobe.com">ronald@adobe.com</a> </div>
+                            <div class="customer-country">Israel</div>
+                            <div class="status status-inactive">Inactive</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Marvin McKinney</div>
+                            <div class="customer-company">Tesla</div>
+                            <div class="customer-phone"> <a href="tel:(252) 555-0126">(252) 555-0126</a> </div>
+                            <div class="customer-email"> <a href="mailto:marvin@tesla.com">marvin@tesla.com</a> </div>
+                            <div class="customer-country">Iran</div>
+                            <div class="status status__active">Active</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Jerome Bell</div>
+                            <div class="customer-company">Google</div>
+                            <div class="customer-phone"> <a href="tel:(629) 555-0129">(629) 555-0129</a> </div>
+                            <div class="customer-email"> <a href="mailto:jerome@google.com">jerome@google.com</a> </div>
+                            <div class="customer-country">Réunion</div>
+                            <div class="status status__active">Active</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Kathryn Murphy</div>
+                            <div class="customer-company">Microsoft</div>
+                            <div class="customer-phone"> <a href="tel:(406) 555-0120">(406) 555-0120</a> </div>
+                            <div class="customer-email"> <a href="mailto:kathryn@microsoft.com">kathryn@microsoft.com</a> </div>
+                            <div class="customer-country">Curaçao</div>
+                            <div class="status status__active">Active</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Jacob Jones</div>
+                            <div class="customer-company">Yahoo</div>
+                            <div class="customer-phone"> <a href="tel:(208) 555-0112">(208) 555-0112</a> </div>
+                            <div class="customer-email"> <a href="mailto:jacob@yahoo.com">jacob@yahoo.com</a> </div>
+                            <div class="customer-country">Brazil</div>
+                            <div class="status status__active">Active</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                    <li class="customers-list__item">
+                        <div class="customer-list__item--wrapper">
+                            <div class="customer-name">Kristin Watson</div>
+                            <div class="customer-company">Facebook</div>
+                            <div class="customer-phone"> <a href="tel:(704) 555-0127">(704) 555-0127</a> </div>
+                            <div class="customer-email"> <a href="mailto:kristin@facebook.com">kristin@facebook.com</a> </div>
+                            <div class="customer-country">Åland Islands</div>
+                            <div class="status status-inactive">Inactive</div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                </ul>
+        
+                <div class="pagination">
+                    <span class="pagination__descr">Showing data 1 to 8 of 256K entries</span>
+                    <ul class="pagination__page-list">
+                        <li class="pagination__page"> <span> < </span></li>
+                        <li class="pagination__page pagination__page--active "> <span>1</span></li>
+                        <li class="pagination__page"> <span>2</span></li>
+                        <li class="pagination__page"> <span>3</span></li>
+                        <li class="pagination__page"> <span>4</span></li>
+                        <li class="pagination__page"> <span>...</span></li>
+                        <li class="pagination__page"> <span>40</span></li>
+                        <li class="pagination__page"> <span> > </span></li>
+                    </ul>
+                </div>
+        
+        
+            </section>
+        
+        </main>
+    </div>
+<script src="./js/menu.js"></script>
+</body>
+</html>
