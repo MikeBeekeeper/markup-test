@@ -531,7 +531,7 @@ svg {
   left: 0;
   z-index: 9999;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   background-color: white;
   padding: 35px 28px;
   display: flex;
